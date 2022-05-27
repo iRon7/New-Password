@@ -2,7 +2,6 @@
 .VERSION 2.0.1
 .GUID 151ba9a5-c90f-4506-83de-37779d665d95
 .AUTHOR Ronald Bode (iRon)
-.DESCRIPTION Creates a random (secure) string of a specific size and with a specific complexity.
 .COMPANYNAME
 .COPYRIGHT
 .TAGS PSON Password Generator Random Secure String
@@ -20,7 +19,7 @@
 .SYNOPSIS
     Generates a password.
 .DESCRIPTION
-    Creates a random string of a specific size and with a specific complexity.
+    Creates a random (secure) string of a specific size and with a specific complexity.
 .PARAMETER Length
     The (minimal) password length (alias Size).
     If there are more mandatory characters, the length will be the total of the mandatory
