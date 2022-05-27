@@ -65,7 +65,8 @@
 .LINK
     https://stackoverflow.com/a/37275209/1701026
 #>
-[CmdletBinding(DefaultParameterSetName = 'Default')] param(
+[Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSReviewUnusedParameter', '', Scope = 'Function')]
+[CmdletBinding()] param(
     [Alias('Size')][int]$Length = 8,
     [int]$Uppercase = 1,
     [int]$Lowercase = 1,
