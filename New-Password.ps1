@@ -1,6 +1,6 @@
 <#PSScriptInfo
 .VERSION 2.0.1
-.GUID 5151ba9a5-c90f-4506-83de-37779d665d95
+.GUID 151ba9a5-c90f-4506-83de-37779d665d95
 .AUTHOR Ronald Bode (iRon)
 .DESCRIPTION Creates a random (secure) string of a specific size and with a specific complexity.
 .COMPANYNAME
