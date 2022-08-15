@@ -118,5 +118,7 @@ specific applications or might lead to confusion (as an alphanumeric O and a num
 | Default value:              | False |
 | Accept pipeline input:      | false |
 | Accept wildcard characters: | false |
+## [Outputs](#outputs)
+### [String](https://docs.microsoft.com/en-us/dotnet/api/System.String)
 ## [Related Links](#related-links)
 * [https://stackoverflow.com/a/37275209/1701026](https://stackoverflow.com/a/37275209/1701026)
