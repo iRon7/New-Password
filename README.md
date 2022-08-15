@@ -19,27 +19,31 @@ New-Password
 ### Example 1
 ```PowerShell
 New-Password
-Create a password of 8 characters with at least one uppercase character, one lowercase character,
-one numeral and one symbol:
 ```
+ Creates a password of 8 characters with at least one uppercase character, one lowercase character,  
+one numeral and one symbol:
+
 ### Example 2
 ```PowerShell
 New-Password -Size 30 -Exclude ',\#+<>;"='
-Create a password of 30 characters with at least one uppercase character, one lowercase character,
-one numeral and one symbol and do not use special AD characters:
 ```
+ Creates a password of 30 characters with at least one uppercase character, one lowercase character,  
+one numeral and one symbol and do not use special AD characters:
+
 ### Example 3
 ```PowerShell
 New-Password -Lower 8 -Upper 9 -Numerals 8 -Symbols 5 -Exclude ',\#+<>;"='
-Create a password of 30 (8 + 9 + 8 + 5) characters with at 8 uppercase characters, 9 lowercase
-characters, 8 numerals and 5 symbols and do not use special AD characters:
 ```
+ Creates a password of 30 (8 + 9 + 8 + 5) characters with at 8 uppercase characters, 9 lowercase  
+characters, 8 numerals and 5 symbols and do not use special AD characters:
+
 ### Example 4
 ```PowerShell
 New-Password -Symbols -1 -AsSecureString
-Create a secure string password with at least one uppercase character, one lowercase character,
-one numeral and no symbols:
 ```
+ Creates a secure string password with at least one uppercase character, one lowercase character,  
+one numeral and no symbols:
+
 ## [Parameters](#parameters)
 ### `-Length`
  The (minimal) password length (alias Size).  
